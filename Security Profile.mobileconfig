@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>This profile disables the camera application and camera settings for security.</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>CBE111BC-6948-4D57-8F55-56BD8BEA6A68</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowCamera</key>
+			<false/>
+			<key>whitelistedAppBundleIDs</key>
+			<array>
+				<string>com.apple.camera</string>
+			</array>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Security Profile</string>
+	<key>PayloadIdentifier</key>
+	<string>Abdallas-iMac.6137445C-453E-4074-B3A7-46FC877DDB9A</string>
+	<key>PayloadOrganization</key>
+	<string>Abdalla Kazim</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>84B4D6E3-06BD-4132-8ABD-93AED7C3AFBC</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>1</integer>
+</dict>
+</plist>
